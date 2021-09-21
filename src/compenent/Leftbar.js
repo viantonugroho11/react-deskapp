@@ -62,20 +62,20 @@ export default class Leftbar extends Component {
               <span className="micon dw dw-apartment" /><span className="mtext"> UI Elements </span>
             </a>
             <ul className="submenu">
-              <li><a href="ui-buttons.html">Buttons</a></li>
-              <li><a href="ui-cards.html">Cards</a></li>
-              <li><a href="ui-cards-hover.html">Cards Hover</a></li>
-              <li><a href="ui-modals.html">Modals</a></li>
-              <li><a href="ui-tabs.html">Tabs</a></li>
-              <li><a href="ui-tooltip-popover.html">Tooltip &amp; Popover</a></li>
-              <li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
-              <li><a href="ui-notification.html">Notification</a></li>
-              <li><a href="ui-timeline.html">Timeline</a></li>
-              <li><a href="ui-progressbar.html">Progressbar</a></li>
-              <li><a href="ui-typography.html">Typography</a></li>
-              <li><a href="ui-list-group.html">List group</a></li>
-              <li><a href="ui-range-slider.html">Range slider</a></li>
-              <li><a href="ui-carousel.html">Carousel</a></li>
+              <li><a href="/ui-buttons">Buttons</a></li>
+              <li><a href="/cards">Cards</a></li>
+              <li><a href="/cards-hover">Cards Hover</a></li>
+              <li><a href="/ui-modals">Modals</a></li>
+              <li><a href="/ui-tabs">Tabs</a></li>
+              <li><a href="/ui-tooltip">Tooltip &amp; Popover</a></li>
+              <li><a href="/ui-sweet-alert">Sweet Alert</a></li>
+              <li><a href="/ui-notification">Notification</a></li>
+              <li><a href="/ui-timeline">Timeline</a></li>
+              <li><a href="/ui-progressbar">Progressbar</a></li>
+              <li><a href="/ui-typography">Typography</a></li>
+              <li><a href="/ui-list-group.">List group</a></li>
+              <li><a href="/ui-range-slider">Range slider</a></li>
+              <li><a href="/ui-carousel">Carousel</a></li>
             </ul>
           </li>
           <li className="dropdown">
