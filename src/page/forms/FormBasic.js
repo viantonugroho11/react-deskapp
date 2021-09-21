@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-
+import Header from '../../compenent/Header'
+import Sidebar from '../../compenent/Sidebar'
+import Leftbar from '../../compenent/Leftbar'
 export default class FormBasic extends Component {
   render() {
     return (
       <div>
+          <Header/>
+  <Leftbar/>
+  <Sidebar/>
 <div className="main-container">
   <div className="pd-ltr-20 xs-pd-20-10">
     <div className="min-height-200px">

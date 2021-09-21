@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Switch,Route } from 'react-router'
+
+
 
 export default class Leftbar extends Component {
   render() {
@@ -23,7 +24,7 @@ export default class Leftbar extends Component {
               <span className="micon dw dw-house-1" /><span className="mtext">Home</span>
             </a>
             <ul className="submenu">
-              <li><a href="index.html">Dashboard style 1</a></li>
+              <li><a href="/">Dashboard style 1</a></li>
               <li><a href="index2.html">Dashboard style 2</a></li>
               <li><a href="index3.html">Dashboard style 3</a></li>
             </ul>
@@ -33,13 +34,13 @@ export default class Leftbar extends Component {
               <span className="micon dw dw-edit2" /><span className="mtext">Forms</span>
             </a>
             <ul className="submenu">
-              <li><a href="form-basic.html">Form Basic</a></li>
-              <li><a href="advanced-components.html">Advanced Components</a></li>
-              <li><a href="form-wizard.html">Form Wizard</a></li>
-              <li><a href="html5-editor.html">HTML5 Editor</a></li>
-              <li><a href="form-pickers.html">Form Pickers</a></li>
-              <li><a href="image-cropper.html">Image Cropper</a></li>
-              <li><a href="image-dropzone.html">Image Dropzone</a></li>
+              <li><a href="/form-basic">Form Basic</a></li>
+              <li><a href="/advanced-components">Advanced Components</a></li>
+              <li><a href="/form-wizard">Form Wizard</a></li>
+              <li><a href="/html5-editor">HTML5 Editor</a></li>
+              <li><a href="/form-pickers">Form Pickers</a></li>
+              <li><a href="/image-cropper">Image Cropper</a></li>
+              <li><a href="/image-dropzone">Image Dropzone</a></li>
             </ul>
           </li>
           <li className="dropdown">

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-//form basic
-import Formbasic from '../page/Formbasic'
+
 
 export default class Sidebar extends Component {
   render() {
