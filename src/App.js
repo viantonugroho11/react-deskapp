@@ -13,6 +13,10 @@ import ImageCropper from './page/forms/ImageCropper';
 import ImageDropzone from './page/forms/ImageDropzone';
 // import FormPickers from '../page/forms/FormPickers'
 
+// tables
+import BasicTables from './page/tables/BasicTables';
+import Datatables from './page/tables/Datatables';
+
 function App() {
   return (
 <div>
@@ -26,6 +30,9 @@ function App() {
         <Route exact path="/image-cropper" component={ImageCropper} />
         <Route exact path="/image-dropzone" component={ImageDropzone} />
 
+        {/* tables */}
+        <Route exact path="/basic-tables" component={BasicTables} />
+        <Route exact path="/datatables" component={Datatables} />
   </Switch>
   
 </div>

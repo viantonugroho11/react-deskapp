@@ -48,8 +48,8 @@ export default class Leftbar extends Component {
               <span className="micon dw dw-library" /><span className="mtext">Tables</span>
             </a>
             <ul className="submenu">
-              <li><a href="basic-table.html">Basic Tables</a></li>
-              <li><a href="datatable.html">DataTables</a></li>
+              <li><a href="/basic-tables">Basic Tables</a></li>
+              <li><a href="/datatables">DataTables</a></li>
             </ul>
           </li>
           <li>
