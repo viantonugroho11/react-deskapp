@@ -17,6 +17,9 @@ import ImageDropzone from './page/forms/ImageDropzone';
 import BasicTables from './page/tables/BasicTables';
 import Datatables from './page/tables/Datatables';
 
+//calendar
+import Calendar from './page/Calendar';
+
 function App() {
   return (
 <div>
@@ -33,6 +36,9 @@ function App() {
         {/* tables */}
         <Route exact path="/basic-tables" component={BasicTables} />
         <Route exact path="/datatables" component={Datatables} />
+
+        {/* calendar */}
+        <Route exact path="/calendar" component={Calendar} />
   </Switch>
   
 </div>

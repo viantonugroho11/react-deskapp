@@ -53,7 +53,7 @@ export default class Leftbar extends Component {
             </ul>
           </li>
           <li>
-            <a href="calendar.html" className="dropdown-toggle no-arrow">
+            <a href="/calendar" className="dropdown-toggle no-arrow">
               <span className="micon dw dw-calendar1" /><span className="mtext">Calendar</span>
             </a>
           </li>

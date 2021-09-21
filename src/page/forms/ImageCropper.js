@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-
+import Header from '../../compenent/Header'
+import Leftbar from '../../compenent/Leftbar'
+import Sidebar from '../../compenent/Sidebar'
 export default class ImageCropper extends Component {
   render() {
     return (
       <div>
+        <Header/>
+  <Leftbar/>
+  <Sidebar/>
 <div className="main-container">
   <div className="pd-ltr-20 customscroll-10-p height-100-p xs-pd-20-10">
     <div className="min-height-200px">
