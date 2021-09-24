@@ -6,7 +6,7 @@ export default class Leftbar extends Component {
   render() {
     return (
 <div>
-<div className="left-side-bar">
+  <div className="left-side-bar">
     <div className="brand-logo">
       <a href="index.html">
         <img src="vendors/images/deskapp-logo.svg" alt className="dark-logo" />
